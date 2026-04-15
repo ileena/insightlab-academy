@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run:*)",
+      "Bash(node_modules/.bin/next build:*)",
+      "Bash(node -e ':*)",
+      "Bash(node)",
+      "Bash(node fix-quotes.js)",
+      "Bash(rm fix-quotes.js)"
+    ]
+  }
+}
